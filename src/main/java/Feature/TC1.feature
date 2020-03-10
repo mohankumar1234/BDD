@@ -90,8 +90,8 @@ Examples:
 |button|
 |Wishlist|
 
-@TC10
-Scenario Outline: validate login function
+@TC10 @SIT
+Scenario Outline: validate login function 
 When I enter URL
 Then Home page displayed
 When I click "<button>" in home page top menu
@@ -101,5 +101,7 @@ And I quit browser
 Examples: 
 |button|Email|Password|
 |Log in|aaaaaa@bbbbbb.com|cccccc|
+
+
 
 
